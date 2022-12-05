@@ -12,19 +12,17 @@ def gachi():
 			time = datetime.now().hour 
 			if 7 <= time <= 23: 
 				print(f"\nNow {time} hours, mef day") 
-				return f"\n♂️ Thanks for using, {name} ♂️" 
-				exit() 
+				return "\n♂️ Thanks for using, " + name + " ♂️" 
 			else: 
-				print(f"\nNow {time} hours, we sleep ZzZz...") 
-				return f"\n♂️ Thanks for using, {name} ♂️" 
-				exit() 
+				print(f"\nNow {time} hours, wesleep ZzZz...") 
+				return "\n♂️ Thanks for using, " + name + " ♂️"  
 		elif worldcs != "YES" or worldcs != "Yes" or worldcs != "yes":
 			print("\nFUCK YOU LEATHER MAN!!!") 
 			exit()	 
 	elif password != "world cum shot":
-		print(f"{password} - Not a valid password") 
+		print(password + " - Not a valid password") 
 		exit() 
-	return f"\n♂️ Thanks for using, {name} ♂️" 
+	return "\n♂️ Thanks for using, " + name + " ♂️" 
  
 result = gachi() 
-print(result)
+print(result) 
