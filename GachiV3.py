@@ -6,7 +6,7 @@ name = input("\nEnter name \n\n>>> ")
 password = input("\nEnter password \n\n>>> ") 
 worldcs = input("\nWcs ? \n\n>>> ") 
  
-def gachi(password, worldcs): 
+def gachi(): 
 	if password == "world cum shot": 
 		if worldcs == "YES" or worldcs == "Yes" or worldcs == "yes": 
 			time = datetime.now().hour 
@@ -18,15 +18,13 @@ def gachi(password, worldcs):
 				print(f"\nNow {time} hours, we sleep ZzZz...") 
 				return f"\n♂️ Thanks for using, {name} ♂️" 
 				exit() 
-		else: 
-			worldcs != "YES" or worldcs != "Yes" or worldcs != "yes" 
+		elif worldcs != "YES" or worldcs != "Yes" or worldcs != "yes":
 			print("\nFUCK YOU LEATHER MAN!!!") 
 			exit()	 
-	else:
-		password != "world cum shot"
+	elif password != "world cum shot":
 		print(f"{password} - Not a valid password") 
 		exit() 
 	return f"\n♂️ Thanks for using, {name} ♂️" 
  
-result = gachi(password, worldcs) 
+result = gachi() 
 print(result)
